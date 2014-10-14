@@ -31,4 +31,4 @@ STE2007 p41
 | 66   | `0x01` | `0xE7` | R12 Parameter to writeNokiaByte specifying data, R13 Holds the data for the 8-bit vertical bar `1110 0111` |
 | 276  | `0x00` | `0xB0` | R12 specifies command, R13 sets page (aka row) address to `0xB0`                                           |
 | 288  | `0x00` | `0x10` | R12 specifies command, R13 `0x10` is the prefix for upper 4-bits in the column                             |
-| 294  | `0x00` | `0x00` | R12 specifies command R13`0x00` is the prefix for lower 4-bits in the column                               |
+| 294  | `0x00` | `0x00` | R12 specifies command, R13`0x00` is the prefix for lower 4-bits in the column                               |
