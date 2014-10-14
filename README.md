@@ -1,4 +1,4 @@
-ECE381_Lab3
+ECE382_Lab3
 ===========
 Kyle Jonas
 M6 Dr Coulston
