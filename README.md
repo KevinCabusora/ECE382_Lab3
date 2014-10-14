@@ -9,16 +9,50 @@ Lab3 SPI - "I/O"
 
 ####Nokia 1202 LCD BoosterPack v4-5
 
+|    Name    |    Pin #    |    Type       |    PxDIR    |    PxREN    |    PxOUT    |
+|------------|-------------|---------------|-------------|-------------|-------------|
+|    GND     |    20       |    power      |    N/A      |    N/A      |    N/A      |
+|    RST     |    8        |    output     |    1        |    0        |    1        |
+|    P1.4    |    6        |    output     |    1        |    0        |    1        |
+|    MOSI    |    15       |    output     |    1        |    0        |    1        |
+|    SCLK    |    7        |    output     |    1        |    0        |    1        |
+|    VCC     |    1        |    power      |    N/A      |    N/A      |    N/A      |
+|    S1      |    9        |    input      |    0        |    1        |    1        |
+|    S2      |    10       |    input      |    0        |    1        |    1        |
+|    S3      |    11       |    input      |    0        |    1        |    1        |
+|    S4      |    12       |    input      |    0        |    1        |    1        |
 MS430 Family Guide p328-329
 
 ####Configure the MSP430 
 
+|    Mystery Label    |    Register    |
+|---------------------|----------------|
+|    A                |    P1DIR       |
+|    B                |    P1OUT       |
+|    C                |    P2DIR       |
+|    D                |    P2OUT       |
 MSP430 p328-329
 
+|    ID          |    Bit    |    Function as   set in the Code                             |
+|----------------|-----------|--------------------------------------------------------------|
+|    UCCKPH      |    7      |    Clock Phase select                                        |
+|    UCMSB       |    5      |    Control direction receive & transmit shift   registers    |
+|    UCMST       |    3      |    Master mode select                                        |
+|    UCSYNCH     |    0      |    Synchronous mode enabled                                  |
+|    UCSSEL_2    |    7-6    |    Select SMCLK as source clk in master mode                 |
+|    UCSWRST     |    0      |    Software reset enabled                                    |
 MSP430 Family Guide p445
 
 ####Configure the Nokia 1202 Display
 
+|    Symbolic   Constant             |    Hex    |    Function                                               |
+|------------------------------------|-----------|-----------------------------------------------------------|
+|    #STE2007_RESET                  |    E2     |    Internal reset                                         |
+|    #STE2007_DISPLAYALLPOINTSOFF    |    A4     |    Sets on chip power supply                              |
+|    #STE2007_POWERCONTROL           |    N/A    |    Normal LCS display                                     |
+|    #STE2007_POWERCTR_ALL_ON        |    2F     |    Voltage regulator, voltage follower, and booster on    |
+|    #STE2007_DISPLAYNORMAL          |    A6     |    Normal LCD display                                     |
+|    #STE2007_DISPLAYON              |    AF     |    Turns display on                                       |
 STE2007 p41
 
 
