@@ -38,9 +38,9 @@ STE2007 p41
 | Line | Command/Data | 8-bit Packet |
 |------|--------------|--------------|
 | 66   | Data         | 1110 0111    |
-| 276  | Command      | 1011 0001    |
+| 276  | Command      | 1011 0010    |
 | 288  | Command      | 0001 0000    |
-| 294  | Command      | 0000 0001    |
+| 294  | Command      | 0000 0100    |
 
 Line 66
 ![Line 66](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Pictures/Line%2066.png?raw=true "Line 66")
