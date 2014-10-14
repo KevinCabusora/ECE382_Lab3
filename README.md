@@ -37,3 +37,12 @@ STE2007 p41
 
 Line 66
 ![Line 66](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Pictures/Line%2066.png?raw=true "Line 66")
+
+Line 276
+![Line 276](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Pictures/Line%20276.png?raw=true "Line 276")
+
+Line 288
+![Line 288](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Pictures/Line%20288.png?raw=true "Line 288")
+
+Line 294
+![Line 294](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Pictures/Line%20294.png?raw=true "Line 294")
