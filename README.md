@@ -4,7 +4,6 @@ Kyle Jonas   <br />
 M6 Dr Coulston   <br />
 Lab3 SPI - "I/O"
 
-
 ##Mega-Prelab
 
 ####Nokia 1202 LCD BoosterPack v4-5
@@ -96,4 +95,28 @@ The duration of the reset can be found from code lines 93-100. This code perform
 
 ####Functionality
 
-####Documentation
+##Documentation
+
+####Mega-Prelab
+
+The following cadets worked together and discussed Lab 3 Mega Prelab on Sunday night in order to understand the questions and bounce ideas off each other.
+
+C2C Nathan Ruprecht   
+C2C Eric Thompson   
+C2C Austin Bolinger   
+C2C Sabin Park   
+C2C Kyle Jonas   
+C2C Jermy Gruszka   
+C2C Kevin Cabusora   
+C2C Taylor Bodin   
+C2C Jarrod Wooden   
+C2C Sean Bapty   
+C2C Erica Lewandowski   
+C2C Chris Kiernan   
+C2C J.P. Terragnoli   
+C2C Hunter Her   
+C2C Gytenis Borusas   
+
+####Lab
+
+I worked with C2C Kevin Cabusora in the lab to set up and measure the waveforms.
