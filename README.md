@@ -95,8 +95,9 @@ The duration of the reset can be found from code lines 93-100. This code perform
 
 ####Functionality
 
-Required Functionality:   
-[Req Funct](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Code/Lab3ReqFunct.asm)
+[Required Functionality](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Code/Lab3ReqFunct.asm)
+
+A Functionality
 
 ##Documentation
 
