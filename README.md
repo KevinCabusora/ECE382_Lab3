@@ -99,6 +99,10 @@ The duration of the reset can be found from code lines 93-100. This code perform
 
 A Functionality
 
+####Debugging
+
+The code to create the 8x8 box was not that diffuclt to implement, only requiring use of the setAddress method and initalizig register R12 and R13. However, I did run ito some difficulty centering the box and implementing the button. I initialized R12 and R13 so that the box would be drawn in the middle of the screen. I was able to center up and down but was unable to center the box left and right. Additionaly I removed the wait for button commands to draw because the program would draw the box once and then erase it. Removing the button togle alowed me to leave the immage on the screen.
+
 ##Documentation
 
 ####Mega-Prelab
