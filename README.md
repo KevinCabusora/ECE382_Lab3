@@ -5,7 +5,7 @@ M6 Dr Coulston
 Lab3 SPI - "I/O"
 
 
-###Mega-Prelab
+##Mega-Prelab
 
 ####Nokia 1202 LCD BoosterPack v4-5
 
@@ -22,7 +22,7 @@ MSP430 Family Guide p445
 STE2007 p41
 
 
-###Lab
+##Lab
 
 ####Logic Analyzer
 
@@ -35,3 +35,5 @@ STE2007 p41
 
 ####Waveforms
 
+Line 66
+![Line 66](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Pictures/Line%2066.png?raw=true "Line 66")
