@@ -53,3 +53,11 @@ Line 288
 
 Line 294
 ![Line 294](https://github.com/KyleJonas/ECE382_Lab3/blob/master/Pictures/Line%20294.png?raw=true "Line 294")
+
+The duration of the reset can be found from code lines 93-100. This code performs a dec and a jne, each of which take 2 clock cycles. The code is iterated from 0xFFFF to 0 which is 65535 in decimal times 4 clock cycles each iteration gives us 262140 clock cycles total. With a 1 microseconds clock cycle the reset takes 262.14 miliseconds.
+
+####Writing Modes
+
+####Functionality
+
+####Documentation
